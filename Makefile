@@ -1,7 +1,7 @@
 SOURCES=$(shell find -name '*.cpp')
 
 all:
-	clang ${SOURCES} -o whaledo-demo
+	g++ -static ${SOURCES} -o whaledo-demo
 
 clean:
 	find -name '*.o' -delete

@@ -1,3 +1,3 @@
 FROM alpine:edge
 
-RUN apk add --no-cache clang make
+RUN apk add --no-cache alpine-sdk make
